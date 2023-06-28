@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginTop: 45,
     backgroundColor: '#fff',
+    width:'47%'
   },
   imageContainer: {
     backgroundColor: '#e9e9e9',

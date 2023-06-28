@@ -86,7 +86,7 @@ const Home = ({ navigation }) => {
             <Text style={{ color: '#000', fontSize: 14, fontWeight: '600', marginTop: 5 }}>perfect-for-you based on your goals!</Text>
           </View>
 
-          <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginHorizontal: 15 }}>
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginHorizontal: 15,justifyContent:'space-between' }}>
             {data.map((item) => (
               <Product key={item.id} item={item} navigation={navigation} />
             ))}
